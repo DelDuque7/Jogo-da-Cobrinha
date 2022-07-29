@@ -7,11 +7,15 @@ snake[0] = {
     y: 8 * box
 }
 
+<<<<<<< HEAD
 let direction = "right";
 let food = {
     x: Math.floor(Math.random() * 15 + 1) * box,
     y: Math.floor(Math.random() * 15 + 1) * box
 }
+=======
+let direction = "right"
+>>>>>>> 4fd144bd75ae8608e56bc1010c591244678526cd
 
 function criarBG() {
     context.fillStyle = "lightgreen";
@@ -31,6 +35,7 @@ function drawnFood(){
     context.fillRect(food.x, food.y, box, box);
 }
 
+<<<<<<< HEAD
 
 document.addEventListener('keydown', update);
 
@@ -83,3 +88,17 @@ function iniciarjogo(){
 }
 
 let jogo = setInterval(iniciarjogo, 110);
+=======
+function iniciarjogo(){
+    criarBG();
+    criarcobrinha();
+
+    let snakeX= snake[0].x;
+    let snakeY= snake[0].y;
+}
+
+let jogo = setInterval(iniciarjogo, 100);
+
+criarBG();
+criarcobrinha();
+>>>>>>> 4fd144bd75ae8608e56bc1010c591244678526cd
