@@ -3,4 +3,4 @@ Exercicio JS - Dio
 
 #Finalizado
 
-##Com apenas alguns conflitos estpeticos, o projeto saiu super bem
+##Com apenas alguns conflitos estéticos, o projeto saiu super bem
